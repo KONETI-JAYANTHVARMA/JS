@@ -3,7 +3,7 @@
 const data1={
     firstname:'Mark',
     lastname:'Miller',
-    fullname:this.firstname+' '+this.lastnamelastname,
+    fullname:this.firstname+' '+this.lastname,
     mass:78,
     height:1.69,
     calcBMI: function(){

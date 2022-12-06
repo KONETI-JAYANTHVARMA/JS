@@ -13,7 +13,7 @@ console.log(Boolean('Jayanthvarma'));
 console.log(Boolean({}));
 
 const money=0;
-/* Normally money willbe a number , 
+/* Normally money will be a number , 
 but when we use it in the if else block it turns the number into boolean value */
 if(money)
 {

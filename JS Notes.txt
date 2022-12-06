@@ -1,0 +1,53 @@
+
+
+Data Types:-
+
+	* typeof determines the variable type
+	
+Const, Var & Let:-
+
+	* we re-assign number of values to let and we can leave it without assigning a value also.
+	* we cannot re-assign new values to const keyword and always we need to assign a value to it.
+	* we can also use variables without declaring
+
+String & Templates:-
+
+	* use double quotes for a string, if u have a need for single quote in between
+	* or u can also use `` this to write.
+	
+Type Conversion & Coercion:-
+
+	* to convert string to number use number()
+	* if we use number() to string it will give NaN
+	* if number written in string format is either multiplied, subtracted and divide then the output is a number itself not a string.
+	
+Truthy & Falsy:-
+
+	* falsy values are: 0,'',undefined, NaN, null  
+	* any value other than that is true
+	* if we use Boolean() we will get false value
+	
+Functions:-
+	* a variable can hold one value, But a function can hold 2-3 lines of code.
+	* we can use a function any number of times in the code.
+	* functions are just values in Javascript, The main difference between function declaration and function expression is 
+	  that the function declaration can be called before the function also.
+	  
+	  
+Arrow Function :-
+	  
+	* const CalcAge3= birthYear=> 2022-birthYear ;
+	* If we have multiple parameters : const yearsUntilRetirement = (birthYear,firstName)=> {}
+	
+	
+Scoping:-
+	
+	$ In a Block scope
+		* if const and let are written they cannot be accessed outside of the if block.
+		* if var is written inside it can be used outside the if block, as var is function scoped.
+
+	$ In Strict mode
+		* If we write a function in a block, then it cannot be accessed outside the block
+		
+	$ Without strict mode
+		* If we write a function in a block, then it can be accessed outside the block also.

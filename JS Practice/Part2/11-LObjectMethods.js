@@ -11,10 +11,10 @@ const datas={
     //     return 2022-dob;
     // }
 
-    // calcAge: function (){
-    //     //console.log(this)
+    // calcAge1: function (){
+    //     console.log(this)
     //         return 2022-this.dob;
-    //     }
+    //     },
     calcAge: function(){
         this.age=2022-this.dob;
         return datas.age;
@@ -29,7 +29,7 @@ const datas={
 
 // any function attached to an object is called method
 
-console.log(datas.calcAge());
+//console.log(datas.calcAge1());
 console.log(datas.calcAge());
 console.log(datas.calcAge());
 // console.log(datas.calcAge(2001))

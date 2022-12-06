@@ -18,4 +18,4 @@ console.log('I am '+ 22+' years old');
 // coverted number to string
 console.log('2022'-20-'1');
 //converted strings to number
-// if  number written in string format is either multiplied, subtracted and divide then the output is anumber itself not a string.
+// if  number written in string format is either multiplied, subtracted and divide then the output is a number itself not a string.
